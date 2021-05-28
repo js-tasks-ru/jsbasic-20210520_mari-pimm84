@@ -1,4 +1,5 @@
 function factorial(n) {
+
   let result = 1;
   if (n == 1 || n  == 0 ) {
     return 1;
@@ -9,5 +10,4 @@ function factorial(n) {
   }
     return result;
 }
-
 
