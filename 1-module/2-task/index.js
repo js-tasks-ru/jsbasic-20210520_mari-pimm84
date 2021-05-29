@@ -10,24 +10,25 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
-switch (true) {
-  case null:
-    return false;
-    break;
+  switch (true) {
+    case (name === null):
+      return false;
+      break;
 
-  case (/\s/.test(name)):
-    return false;
-    break;
+    case (/\s/.test(name)):
+      return false;
+      break;
 
-  case (name.length < 4):
-    return false;
-    break;
+    case (name.length < 4):
+      return false;
+      break;
 
-  default:
-    return true;
+    default:
+      return true;
+  }
 }
 
-}
+console.log(isValid(null))
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
