@@ -28,8 +28,6 @@ function isValid(name) {
   }
 }
 
-console.log(isValid(null))
-
 function sayHello() {
   let userName = prompt('Введите ваше имя');
 
