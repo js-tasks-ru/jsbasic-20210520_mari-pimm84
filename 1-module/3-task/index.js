@@ -1,6 +1,6 @@
 function ucFirst(str) {
 
-  if (str === " ") {
+  if (!str) {
     return str;
   }
 
